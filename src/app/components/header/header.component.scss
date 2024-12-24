@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 8px;
+    background-color: #333;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        > span {
+            cursor: pointer;
+                margin-inline: 8px;
+                &hover {
+                    color: rebeccapurple;
+                }
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            padding-inline: 0;
+            margin-block: 0;
+
+            li { 
+                cursor: pointer;
+                margin-inline: 8px;
+                &hover {
+                    color: rebeccapurple;
+                }
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
